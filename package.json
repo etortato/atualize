@@ -20,6 +20,7 @@
   "homepage": "https://github.com/etortato/atualize#readme",
   "dependencies": {
     "next": "^10.0.3",
+    "re-carousel": "^2.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
