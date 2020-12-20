@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Carousel from "re-carousel";
-import { confirmAlert } from 'react-confirm-alert';
-import 'react-confirm-alert/src/react-confirm-alert.css'
 
 function Menu(props) {
   return (
@@ -65,7 +63,7 @@ function Home() {
           background: "rgba(0,0,0,0.2)",
           position: "absolute",
           zIndex: 2000,
-          color: "white"
+          color: "white",
         }}
       >
         ALGUM TEXTO BEM MANEIRO AQUI
