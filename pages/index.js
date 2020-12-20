@@ -33,7 +33,7 @@ function Header() {
       }}
     >
       <div style={{ margin: "2%", display: "inline-grid" }}>
-        <Image src="/logo.png" width="190" height="80" />
+        <Image src="/Logo.png" width="190" height="80" />
       </div>
       <Menu text="Entre em contato"></Menu>
       <Menu text="áreas de atuação"></Menu>
