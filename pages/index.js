@@ -1,17 +1,19 @@
 import Image from "next/image";
 import Carousel from "re-carousel";
+import { confirmAlert } from 'react-confirm-alert';
+import 'react-confirm-alert/src/react-confirm-alert.css'
 
 function Menu(props) {
   return (
     <div
       style={{
         float: "right",
-        marginRight: "3%",
+        marginRight: "2%",
         color: "white",
-        fontSize: 20,
+        fontSize: 18,
         fontWeight: 800,
         fontFamily: "monospace",
-        textTransform: "capitalize",
+        textTransform: "uppercase",
         cursor: "pointer",
         marginTop: "5%",
       }}
@@ -35,9 +37,10 @@ function Header() {
       <div style={{ margin: "2%", display: "inline-grid" }}>
         <Image src="/Logo.png" width="190" height="80" />
       </div>
-      <Menu text="Entre em contato"></Menu>
-      <Menu text="áreas de atuação"></Menu>
-      <Menu text="quem somos"></Menu>
+      <Menu text="ENTRE EM CONTATO"></Menu>
+      <Menu text="ÁREAS DE ATUAÇÃO"></Menu>
+      <Menu text="NOSSO TIME"></Menu>
+      <Menu text="QUEM SOMOS"></Menu>
     </div>
   );
 }
